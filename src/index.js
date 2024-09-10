@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CursorBall from './components/creativity/CursorBall';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <CursorBall />
     <App />
   </React.StrictMode>
 );

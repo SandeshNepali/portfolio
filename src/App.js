@@ -1,15 +1,13 @@
-import { Box, Typography } from "@mui/material"
+import { Layout } from "./components/Index";
 
 
 function App() {
+
+
+
   return (
     <>
-      <Box>
-        <Typography>
-
-          Sandesh Portfolio
-        </Typography>
-      </Box>
+      <Layout />
 
     </>
   );
